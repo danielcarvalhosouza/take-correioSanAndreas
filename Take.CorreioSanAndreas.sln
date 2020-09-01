@@ -13,15 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Take.CorreioSanAndreas.Serv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - CrossCutting", "2.1 - CrossCutting", "{8DD43984-D160-4536-9BD7-F5DC7A254E84}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Take.CorreioSanAndreas.Infra.CrossCutting.Utils", "Take.CorreioSanAndreas.Infra.CrossCutting.Utils\Take.CorreioSanAndreas.Infra.CrossCutting.Utils.csproj", "{7CA3F8B0-A598-4270-94C2-CFD30D1E2E51}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{53687C55-E5CC-427F-BA78-145D25D5733B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Take.CorreioSanAndreas.Domain", "Take.CorreioSanAndreas.Domain\Take.CorreioSanAndreas.Domain.csproj", "{18EF367A-010C-4484-A1EE-8B8BD46C0152}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Take.CorreioSanAndreas.Tests,XUnitTest", "Take.CorreioSanAndreas.Tests,XUnitTest\Take.CorreioSanAndreas.Tests,XUnitTest.csproj", "{1C477DF7-4E5C-4F6E-AE59-311AA7951026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take.CorreioSanAndreas.Infra.CrossCutting.IoC", "Take.CorreioSanAndreas.Infra.CrossCutting.IoC\Take.CorreioSanAndreas.Infra.CrossCutting.IoC.csproj", "{0C2E4A1A-2DC1-4558-9B45-B9A8EC7A37C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Take.CorreioSanAndreas.Infra.CrossCutting.IoC", "Take.CorreioSanAndreas.Infra.CrossCutting.IoC\Take.CorreioSanAndreas.Infra.CrossCutting.IoC.csproj", "{0C2E4A1A-2DC1-4558-9B45-B9A8EC7A37C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +31,6 @@ Global
 		{29BF3896-A14A-4069-9914-D0F99FC6B657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29BF3896-A14A-4069-9914-D0F99FC6B657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29BF3896-A14A-4069-9914-D0F99FC6B657}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CA3F8B0-A598-4270-94C2-CFD30D1E2E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CA3F8B0-A598-4270-94C2-CFD30D1E2E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CA3F8B0-A598-4270-94C2-CFD30D1E2E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CA3F8B0-A598-4270-94C2-CFD30D1E2E51}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18EF367A-010C-4484-A1EE-8B8BD46C0152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18EF367A-010C-4484-A1EE-8B8BD46C0152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18EF367A-010C-4484-A1EE-8B8BD46C0152}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -56,7 +50,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{29BF3896-A14A-4069-9914-D0F99FC6B657} = {D93999DA-2FB1-42C3-A4FB-ECB065EDD9C2}
 		{8DD43984-D160-4536-9BD7-F5DC7A254E84} = {6198BAFB-081C-43D1-8E7F-DE341360652E}
-		{7CA3F8B0-A598-4270-94C2-CFD30D1E2E51} = {8DD43984-D160-4536-9BD7-F5DC7A254E84}
 		{18EF367A-010C-4484-A1EE-8B8BD46C0152} = {A9A6C60B-7B68-4358-ADBB-DD4693FA6F05}
 		{1C477DF7-4E5C-4F6E-AE59-311AA7951026} = {53687C55-E5CC-427F-BA78-145D25D5733B}
 		{0C2E4A1A-2DC1-4558-9B45-B9A8EC7A37C2} = {8DD43984-D160-4536-9BD7-F5DC7A254E84}
