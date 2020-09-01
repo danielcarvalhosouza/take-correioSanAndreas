@@ -39,6 +39,8 @@ namespace Take.CorreioSanAndreas.Tests_XUnitTest
 
             _lasVenturas.ConnectTo(_boneCounty, 1);
             _boneCounty.ConnectTo(_lasVenturas, 1);
+
+            var a = this.GetType().Assembly.FullName;
         }
 
         public ShortestPathFinderTest()

@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Take.CorreioSanAndreas.Domain\Take.CorreioSanAndreas.Domain.csproj" />
     <ProjectReference Include="..\Take.CorreioSanAndreas.Infra.CrossCutting.IoC\Take.CorreioSanAndreas.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Take.CorreioSanAndreas.Services.WebApi\Take.CorreioSanAndreas.Services.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

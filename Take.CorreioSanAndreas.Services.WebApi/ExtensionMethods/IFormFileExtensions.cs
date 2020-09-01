@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Take.CorreioSanAndreas.Services.WebApi.ExtensionMethods
 {
-    public static class IFormFileExtensions
+    internal static class IFormFileExtensions
     {
         public static IEnumerable<string> GetTextLines(this IFormFile file)
         {

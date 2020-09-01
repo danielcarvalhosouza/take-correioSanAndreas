@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Take.CorreioSanAndreas.Domain.Entities;
 using Take.CorreioSanAndreas.Domain.Interfaces;
 
+[assembly: InternalsVisibleTo("Take.CorreioSanAndreas.Tests\\,XUnitTest")]
 namespace Take.CorreioSanAndreas.Services.WebApi.Utils
 {
     internal static class PathFinderTxtHandler
