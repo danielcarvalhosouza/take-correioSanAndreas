@@ -7,7 +7,7 @@ Projeto  web api contendo a controller com as respectivas operações para regis
 A api está documentada com geração automática através do swagger, com a url de acesso já configurada para ser inicializada no launchsettings.
 
 # 2) Take.CorreioSanAndreas.Domain
-Projeto to tipo class library .net core, contendo o domínio da aplicação, com as entidades e serviços referentes às regras de negócio (com implementação do algoritmo Dijkstra para encontrar o melhor caminho).
+Projeto que contém o domínio da aplicação, com as entidades e serviços referentes às regras de negócio (com implementação do algoritmo Dijkstra para encontrar o melhor caminho).
 
 # 3) Take.CorreioSanAndreas.Infra.CrossCutting.IoC
 Projeto responsável pelo registro das injeções de dependências. (inversion of control).
