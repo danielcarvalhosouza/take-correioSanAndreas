@@ -101,7 +101,6 @@ namespace Take.CorreioSanAndreas.Services.WebApi.Utils
                 }
             }
 
-            //return await Task.FromResult(string.Join(Environment.NewLine, lines));
             return string.Join(Environment.NewLine, lines);
         }
     }
